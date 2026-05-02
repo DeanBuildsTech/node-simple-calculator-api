@@ -1,0 +1,25 @@
+# Dependencies                                                          
+node_modules/                                                           
+venv/        
+__pycache__/                                                            
+
+# Secrets                                                               
+.env     
+.env.local                                                              
+.env.production 
+*.pem          
+*.key
+
+# OS clutter
+.DS_Store                                                               
+Thumbs.db
+
+# Editor clutter
+.vscode/        
+.idea/  
+*.swp 
+
+# Build output
+dist/                                                                   
+build/
+*.log
